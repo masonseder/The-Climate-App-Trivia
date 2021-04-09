@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+
+body {
+    Background-color: #adffb2;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: "Sofia";
+    text-shadow: 2px 3px Green;
+    font-size: 36px;
+    color: #03b6fc;
+}
+
+
+p {
+    font-family: "Sofia";
+    text-shadow: 2px 3px Green;
+    font-size: 36px;
+    color: #03b6fc;
+}
+div {
+    text-align: center;
+    font-family: 'Sofia';
+    font-size: 18px;
+}
+
+button {
+    font-family: "Sofia";
+    text-shadow: 2px 3px Green;
+    font-size: 40px;
+    width: 180px;
+    background-color: green;
+    color: #03b6fc;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin: 30px auto;
+}
+.section {
+    padding: 2% 4%;
+    margin: 2% auto;
+    width: 80%;
+    box-shadow: 0 5px 10px 0 rgba(23, 169, 232);
+    border-radius: 10px;
+    background-color: #003775;
+}
+
+.ideation-flex-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    margin: 1%;
+}
+
+.flex-img-container {
+    width: 40%;
+    min-height: 250px;
+    background-image: url("https://app.bsd.education/resources/puzzleimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+}
+
+.flex-text-container {
+    width: 45%;
+}
+
+.flex-text-container>h3 {
+    text-align: center;
+}
+
+.final-product-flex-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.final-product-flex-wrapper>.flex-text-container {
+    text-align: left;
+}
+
+.flex-iframe-container>iframe {
+    display: block;
+    margin: auto;
+    min-width: 300px;
+    min-height: 230px;
+}
+
+#items {
+    width: 92%;
+    flex-wrap: wrap;
+}
+
+#items div:hover {
+    cursor: pointer;
+}
+
+.gallery-item {
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    margin: 1%;
+    background-image: url("https://i.imgur.com/cBn4qQE.png");
+    background-position: center center;
+    border-radius: 2%;
+    box-shadow: 0 5px 10px 0 rgba(245, 127, 127);
+}
+
+#title-div {
+    margin-top: 2%;
+}
+
+.gallery-item-content {
+    width: 100%;
+    height: 100%;
+    color: royalblue;
+    border-radius: 2%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.gallery-item-content-text {
+    width: 95%;
+    padding: 5%;
+}
+
+.gallery-item-text {
+    position: absolute;
+    overflow: hidden;
+    padding-left: 1%;
+    padding-right: 1%;
+    white-space: nowrap;
+    width: 90%;
+}
+
+.gallery-item-title {
+    top: 70%;
+    left: 5%;
+    height: 12%;
+}
+
+.gallery-item-description {
+    top: 85%;
+    left: 5%;
+    height: 7%;
+}
+
+.gallery-item-text-background {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0%;
+    top: 75%;
+    border-radius: 0 0 2% 2%;
+    background-color: #2c3e50;
+    opacity: 0.8;
+}
+
+#item-view {
+    display: none;
+}
+
+.item-view-content {
+    display: none;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    box-shadow: 0 10px 20px 0 rgba(23, 169, 232);
+}
+
+.item-view-text {
+    overflow: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 100%;
+    white-space: normal;
+}
+
+.centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
